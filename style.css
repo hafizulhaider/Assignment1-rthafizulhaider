@@ -1,0 +1,120 @@
+/* Global Style */
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+.btn {
+    border-radius: 8px;
+    background: #E55473;
+    border: none;
+    padding: 20px 40px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* Hero Section Styles */
+.hero-section {
+    background: rgba(229, 84, 115, 0.10);
+}
+
+.banner-section {
+    padding: 50px 200px 0px 200px;
+    display: flex;
+    align-items: center;
+}
+
+.banner-img {
+    width: 600px;
+}
+
+.main-content h1 {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    margin-top: 50px;
+    margin-bottom: 32px;
+}
+
+.main-content p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 32px;
+}
+
+/* Featured Section Style */
+.featured {
+    margin-top: 150px;
+
+}
+
+.section-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.section-des {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 50px;
+}
+
+.featured-photo-container {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.photo-container1 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    width: 464px;
+    height: 538px;
+}
+
+.photo-container2 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    width: 464px;
+    height: 538px;
+}
+
+.photo-container3 {
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    width: 464px;
+    height: 538px;
+}
+
+.img1 {
+    padding: 110px 75px 0px 75px;
+}
+
+.img2 {
+    padding: 117px 47px 117px 47px;
+}
+
+.img3 {
+    padding: 68px 75px 0px 75px;
+}
+
+.featured-title {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    color: #272727;
+    text-align: center;
+
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
