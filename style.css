@@ -65,6 +65,7 @@ body {
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
+    margin-top: 0px;
     margin-bottom: 50px;
 }
 
@@ -226,6 +227,52 @@ body {
 
 /* Testimonial Section Design */
 
+.testimonilas {
+    margin-top: 150px;
+    border-radius: 8px;
+    padding: 50px;
+    padding-bottom: 115px;
+    background: rgba(229, 84, 115, 0.05);
+}
+
+.testimonial-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    gap: 24px;
+}
+.test{
+    padding: 30px 22px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    background-image: url('./images/pngwing\ 6.png');
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position: right bottom;
+
+}
+
+.avtimg {
+    width: 100px;
+    margin-bottom: 0px;
+}
+.name{
+    color: #272727;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 35px;
+text-decoration-line: underline;
+margin-top: 5px;
+}
+.test-des{
+    color: rgba(39, 39, 39, 0.60);
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+margin-top: 5px;
+}
 
 /* footer section design */
 .footer {
@@ -257,10 +304,11 @@ body {
     font-weight: 400;
     line-height: 30px;
 }
-.footer-end{
+
+.footer-end {
     color: rgba(255, 255, 255, 0.40);
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-margin-top: 32px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 32px;
 }
