@@ -159,25 +159,20 @@ body {
     width: 318px;
     height: 420px;
 }
+.section-title span {
+    color: #E55473;
+}
 
 /* Instagram Section Styles */
 .instagram-container {
     margin: 100px auto;
 }
 
-.section-title span {
-    color: #E55473;
-}
-
-.instagram-container-info {
-    margin-bottom: 0px;
-}
-
 .gallary {
     display: flex;
     justify-content: center;
     gap: 24px;
-    margin-top: 0px
+    margin-top: 0px;
 }
 
 /* Latest Deals Section */
