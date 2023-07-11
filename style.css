@@ -110,11 +110,116 @@ body {
 .featured-title {
     display: flex;
     justify-content: space-evenly;
-    gap: 30px;
     color: #272727;
     text-align: center;
-
     font-size: 24px;
     font-weight: 700;
     text-decoration-line: underline;
 }
+
+/* Service Section Styles */
+.service-info-container {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    padding: 85px 100px;
+    max-width: 1250px;
+    margin: 150px auto;
+}
+
+.service-info {
+    text-align: center;
+}
+
+.service-description {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* Hot Deal Section Style */
+.hotdeal-container {
+    display: flex;
+    border-radius: 8px;
+    justify-content: space-between;
+    background: rgba(229, 84, 115, 0.05);
+    padding: 100px 200px;
+    margin-top: 100px;
+}
+
+.hotdeal-info {
+    text-align: center;
+    padding: 100px;
+}
+
+.image {
+    width: 318px;
+    height: 420px;
+}
+
+/* Instagram Section Styles */
+.instagram-container {
+    margin: 100px auto;
+}
+
+.section-title span {
+    color: #E55473;
+}
+
+.instagram-container-info {
+    margin-bottom: 0px;
+}
+
+.gallary {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 0px
+}
+
+/* Latest Deals Section */
+.latest-deal-container {
+    border-radius: 8px;
+    background-image: url('./images/rectangle9.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    text-emphasis: center;
+    padding: 120px 285px;
+    margin-top: 150px;
+}
+
+.subscribe{
+    display: flex;
+    justify-content: center;
+}
+
+.subscribe input {
+    padding: 22px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+
+
+}
+
+.enter-mail {
+    border-radius: 8px;
+background: #FFF;
+border: none;
+width: 500px;
+margin-right: 16px;
+}
+#latestdes{
+    margin-top: -30px;
+}
+
+#btn-color {
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+/* Testimonial Section Design */
